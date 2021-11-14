@@ -5,7 +5,7 @@ from app.models import Quote
 class QuoteTest(unittest.TestCase):
     def setUp(self):
         """Will run before every test"""
-        self.new_quote = Quote(1,"Shalin","It's never that too serious")
+        self.new_quote = Quote(1,"george","It's working")
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_quote,Quote))
