@@ -1,6 +1,6 @@
 from flask import render_template,request,redirect,url_for,abort,flash
 from . import main
-from ..request import get_quotes
+from ..requests import get_quotes
 from ..models import User, Blog,Comment
 from .forms import UpdateProfileForm,UploadBlogForm,CommentsForm
 from .. import db
