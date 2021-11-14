@@ -1,37 +1,3 @@
-# Blog Website
-MyBlog is a personal blogging website where the owner can create and share their opinions and other users can read and comment on them, the app also displays random quotes to inspire users.
-## Author 
-* George Kamakia
-##### Technologies Used
-- HTML , Python3.8 and CSS
-##### Setup Instructions and Installation
-- Clone this repository to a location in your file system by git clone https://github.com/0724654276/Myblog.git
-- Open terminal command line then navigate to the root folder of the application. 
-## Development
-You can contribute to MyBlog
-To fix a bug or enhance an existing module, follow these steps:
-- Fork the repository
-- Create a new branch (git checkout -b change-App)
-- Make the appropriate changes in the files
-- Add changes to reflect the changes made
-- Commit your changes (git commit -am 'change-App')
-- Push to the branch (git push origin change-App)
-- Create a Pull Request
-## Known Bugs
-There are no known bugs at the moment
-## Support and contact details
-In case of any issues or questions, feel free to contact me using: 
-
-E-MAIL ADDRESS: georgekamakia@gmail.com
-
-PHONE:+254724654276
-### **License**
-https://choosealicense.com/licenses/mit/#
-
-# **Copyright**
-Copyright (c) {2021} **George Kamakia**
-
-
 # MyBlog
 
 MyBlog is a personal blogging website where the owner can create and share their opinions and other users can read and comment on them, the app also displays random quotes to inspire users.
