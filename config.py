@@ -11,10 +11,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
-        # simple mde  configurations
-    SIMPLEMDE_JS_IIFE = True
-    SIMPLEMDE_USE_CDN = True
-
+   
     #  email configurations
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
