@@ -25,7 +25,7 @@
                                 <p> Blog:{{blog.blog}}</p>
                                 <p> Posted on:{{blog.posted.strftime('%Y-%m-%d')}}</p>
                                 <a href="{{url_for('main.comment_blog',blog_id=blog.id)}}"><button type="button"
-                                        class="btn btn-danger">Comments</button></a><br>
+                                        class="btn btn-danger">Comments.</button></a><br>
                                 {% endfor %}
                             </div>
                         </div>
