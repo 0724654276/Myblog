@@ -5,7 +5,10 @@ MyBlog is a personal blogging website where the owner can create and share their
 
 ## Technologies Used
 
-- HTML,Python3.8 and CSS
+- HTML
+- Python3.8
+- CSS
+- Postgresql
 
 
 ##### Setup Instructions and Installation
