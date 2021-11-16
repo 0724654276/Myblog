@@ -6,7 +6,7 @@ class Config:
     '''
     QUOTES_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
     SECRET_KEY = 'password'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://shalin:Chepkoech03@localhost/bloges'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://geroge:kamakia91@localhost/ourblog'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
@@ -26,7 +26,7 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://shalin:Chepkoech03@localhost/bloges_test'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://geroge:kamakia91@localhost/ourblog_test'
 
 
 
@@ -36,7 +36,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://shalin:Chepkoech03@localhost/bloges'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://geroge:kamakia91@localhost/ourblog'
 
     DEBUG = True
 
