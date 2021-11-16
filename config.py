@@ -6,7 +6,7 @@ class Config:
     '''
     QUOTES_API_BASE_URL = 'http://quotes.stormconsultancy.co.uk/random.json'
     SECRET_KEY = 'password'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://geroge:kamakia91@localhost/myblogg'
+    SQLALCHEMY_DATABASE_URI ='postgresql+psycopg2://geroge:kamakia91@localhost/myblogg'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
