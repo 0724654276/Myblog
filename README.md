@@ -17,11 +17,6 @@ MyBlog is a personal blogging website where the owner can create and share their
 - Navigate to the folder and create a virtualenv and activate it then run pip freeze > requirements.txt
 - Run pip install -r requirements.txt
 
-## BDD
-
-| BEHAVIOUR    | INPUT   |  OUTPUT |
-| :------------- | :------------- | :--------------- |
-| Load website | website url i.e https | View blog |
 
 
 ## Development
