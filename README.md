@@ -11,10 +11,17 @@ MyBlog is a personal blogging website where the owner can create and share their
 - Postgresql
 
 
-##### Setup Instructions and Installation
 
-- Clone this repository to a location in your file system by git clone https://github.com/0724654276/Myblog.git
-- Open terminal command line then navigate to the root folder of the application
+## Setup requirements and Installation
+-  Clone this repository to a location in your file system by git clone https://github.com/0724654276/Myblog.git
+- Navigate to the folder and create a virtualenv and activate it then run pip freeze > requirements.txt
+- Run pip install -r requirements.txt
+
+## BDD
+
+| BEHAVIOUR    | INPUT   |  OUTPUT |
+| :------------- | :------------- | :--------------- |
+| Load website | website url i.e https | View blog |
 
 
 ## Development
@@ -37,8 +44,12 @@ If you find a bug (the website couldn't handle the query and or gave undesired r
 
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 
+# Live version
+- [Live version](https://myblog255.herokuapp.com/)
 
 ### License
+
+You can use this application for personal use only.
 
 *MIT*
 Copyright (c) 2021 **George Kamakia**
